@@ -612,7 +612,7 @@ a {
     background-image: url("/desk-hero-girl.3a111bb9.png"), url("/d-hero-icecream.fd07a36e.png");
     background-repeat: no-repeat;
     background-position: right 94px bottom, 70% bottom;
-    background-size: 293px 232px, 538px 613px;
+    background-size: 293px 232px, 518px 593px;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -620,7 +620,7 @@ a {
     background-image: url("/desk-hero-girl@2x.bd55b3f6.png"), url("/d-hero-icecream@2x.90f90aa7.png");
     background-repeat: no-repeat;
     background-position: right 94px bottom, 70% bottom;
-    background-size: 293px 232px, 538px 613px;
+    background-size: 293px 232px, 518px 593px;
   }
 }
 .products__section {

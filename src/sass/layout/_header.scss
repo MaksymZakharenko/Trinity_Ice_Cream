@@ -7,26 +7,26 @@
 .header__icon {
   fill: #D41443;
 transform: scale(1.15);
-animation: draw 5s 5;
+animation: draw 5s 4;
 animation-direction: alternate;
 
 }
  
-//  @keyframes draw {
-//    0%{
-//      fill: #D41443;
-//      transform: scale(1);
-//    }
-//    50%{
-//      transition: transform .3s linear;
-//      transform: scale(1.1);
-//      fill: red;
-//    }
-//    100%{
-//      fill: #D41443;
-//      transform: scale(1);
-//    }
-// }
+ @keyframes draw {
+   0%{
+     fill: #D41443;
+     transform: scale(1);
+   }
+   50%{
+     transition: transform .3s linear;
+     transform: scale(1.1);
+     fill: red;
+   }
+   100%{
+     fill: #D41443;
+     transform: scale(1);
+   }
+}
 
 .header .container {
   background-color: transparent;

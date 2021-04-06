@@ -236,7 +236,7 @@
     background-image: url('../images/mobile/m-hero-icecream.png');
     background-repeat: no-repeat;
     background-size: 346px 419px;
-    background-size: 100vw;
+    // background-size: 100vw;
     background-position: left 33px bottom;
   }
 }
@@ -245,7 +245,8 @@
   .hero {
     background-image: url('../images/mobile/m-hero-icecream@2x.png');
     background-repeat: no-repeat;
-    background-size: 100vw;
+    background-size: 346px 419px;
+    // background-size: 100vw;
     background-position: left 33px bottom;
   }
 }

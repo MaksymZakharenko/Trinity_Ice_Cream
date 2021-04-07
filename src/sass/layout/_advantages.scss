@@ -4,6 +4,13 @@
   margin: 0 auto;
 }
 
+.advantages .container {
+  @media screen and (max-width: 767px) {
+    max-width: 480px;
+  }
+}
+
+
 .advantages__list {
   padding-bottom: 97px;
   padding-left: 5px;

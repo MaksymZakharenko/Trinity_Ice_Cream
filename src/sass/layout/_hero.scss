@@ -12,6 +12,9 @@
 }
 .hero .container {
   position: relative;
+  @media screen and (max-width: 768px){
+  max-width: 480px;
+  }
   @media screen and (min-width: 768px) and (max-width: 1279px) {
     max-width: 800px;
   }
@@ -28,9 +31,11 @@
   margin-bottom: 20px;
   @media screen and (max-width: 767px) {
     font-size: 26px;
+    padding-left: 20px;
   }
   @media screen and (min-width: 768px) {
     font-size: 22px;
+    padding-left: 20px;
   }
   @media screen and (min-width: 1280px) {
     font-size: 38px;
@@ -55,6 +60,10 @@
   @media screen and (min-width: 1280px) {
     font-size: 58px;
   }
+}
+
+.hero__btn {
+  padding-left: 20px;
 }
 
 .hero__btn-products {
@@ -232,22 +241,22 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
-  .hero {
+  .hero .container {
     background-image: url('../images/mobile/m-hero-icecream.png');
     background-repeat: no-repeat;
     background-size: 346px 419px;
     // background-size: 100vw;
-    background-position: left 33px bottom;
+    background-position: right -78px bottom -20px;
   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
-  .hero {
+  .hero .container {
     background-image: url('../images/mobile/m-hero-icecream@2x.png');
     background-repeat: no-repeat;
     background-size: 346px 419px;
     // background-size: 100vw;
-    background-position: left 33px bottom;
+    background-position: right -78px bottom -20px;
   }
 }
 

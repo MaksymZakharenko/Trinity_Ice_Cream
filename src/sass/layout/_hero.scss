@@ -63,6 +63,7 @@
 }
 
 .hero__btn {
+  display: flex;
   padding-left: 20px;
 }
 
@@ -171,10 +172,42 @@
   }
 }
 
-.hero__milk-btn {
-  background-color: var(--font-primary-color);
+// .hero__milk-btn {
+//   background-color: var(--font-primary-color);
+//   border: none;
+// }
+
+.hero__section-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--text-main-color);
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
   border: none;
+  cursor: pointer;
+  fill: var(--font-button-primary-color);
+
+  @media screen and (min-width: 1280px) {
+  height: 26px;
+  width: 26px;
+  }
+
+  
 }
+
+.hero__list-img {
+  height: 7px;
+  width: 7px;
+
+  @media screen and (min-width: 1280px) {
+  height: 10px;
+  width: 10px;
+  }
+}
+
+
 
 .hero__divs {
   display: flex;
@@ -200,6 +233,7 @@
   text-transform: uppercase;
   position: relative;
   color: var(--text-accent-color);
+  z-index: 1;
   @media screen and (min-width: 1280px) {
     font-size: 46px;
   }
@@ -220,7 +254,7 @@
       content: url('../images/desktop/d-hero-ellipse.png');
       position: absolute;
       top: -20px;
-      right: -10px;
+      right: -15px;
       z-index: -1;
     }
   }

@@ -404,6 +404,7 @@ a {
 }
 
 .hero__btn {
+  display: flex;
   padding-left: 20px;
 }
 
